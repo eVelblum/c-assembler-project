@@ -26,5 +26,8 @@ make
 ```bash
 ./myrun program
 ```
-
 The input file should be named: `program.as`
+
+## Example
+
+See `example.as` for a sample input file and `example.ob` for the generated object file.
