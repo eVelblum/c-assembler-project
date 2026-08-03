@@ -104,7 +104,7 @@ int readMacroInText ( int i ,char *argv[],Macro **head)
 		if(isMacroOrEndmacro(line)==1)
 		{
 			Macro *temp = createNode();
-			if(insertMacro(temp,line));
+			if(insertMacro(temp,line))
 			{
 				if(isExisted(temp->macros_name,*head))
 				{
